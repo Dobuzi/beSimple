@@ -6,9 +6,18 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct BeSimpleApp: App {
+    init() {
+        FirebaseApp.configure()
+        let db = Firestore.firestore()
+        let storage = Storage.storage()
+        print(db.description)
+        print(storage.description)
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
