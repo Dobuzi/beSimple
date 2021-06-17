@@ -20,6 +20,7 @@
 		4DAEBDE42677250200889834 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAEBDE32677250200889834 /* ContentView.swift */; };
 		4DAEBDE62677250300889834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEBDE52677250300889834 /* Assets.xcassets */; };
 		4DAEBDE92677250300889834 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAEBDE82677250300889834 /* Preview Assets.xcassets */; };
+		4DFAE4BB267A40F100297D33 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFAE4BA267A40F100297D33 /* Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		4DAEBDE52677250300889834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DAEBDE82677250300889834 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DAEBDEA2677250300889834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DFAE4BA267A40F100297D33 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		4DAEBDE02677250200889834 /* BeSimple */ = {
 			isa = PBXGroup;
 			children = (
+				4DD1E0DE267B0EB400F8B60C /* Cached */,
 				4DAEBDE12677250200889834 /* BeSimpleApp.swift */,
 				4DAEBDE32677250200889834 /* ContentView.swift */,
 				4D9AE2042678726800E4E1A1 /* upload.swift */,
@@ -78,6 +81,7 @@
 				4D9AE20226786F8100E4E1A1 /* GoogleService-Info.plist */,
 				4DAEBDE72677250300889834 /* Preview Content */,
 				4D5188B92679B6DE00E04B88 /* ImagePicker.swift */,
+				4DFAE4BA267A40F100297D33 /* Image.swift */,
 			);
 			path = BeSimple;
 			sourceTree = "<group>";
@@ -88,6 +92,21 @@
 				4DAEBDE82677250300889834 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DD1E0DE267B0EB400F8B60C /* Cached */ = {
+			isa = PBXGroup;
+			children = (
+				4DD1E0DF267B0EC200F8B60C /* Images */,
+			);
+			path = Cached;
+			sourceTree = "<group>";
+		};
+		4DD1E0DF267B0EC200F8B60C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +194,7 @@
 				4D5188BA2679B6DE00E04B88 /* ImagePicker.swift in Sources */,
 				4D9AE2052678726800E4E1A1 /* upload.swift in Sources */,
 				4DAEBDE22677250200889834 /* BeSimpleApp.swift in Sources */,
+				4DFAE4BB267A40F100297D33 /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
